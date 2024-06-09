@@ -1,17 +1,16 @@
-### Import/Export Google Chrome's custom search engines
+<details>
 
-**_Quit Google Chrome before exporting/importing custom search engines._**
+<summary>Original readme</summary>
 
-To Export from one machine:
-```
-./export.sh
-```
+># Import/Export Google Chrome's custom search engines
+>
+>>⚠️ _**Quit Google Chrome before exporting/importing custom search engines.**_
+>
+>+ To Export from one machine: `./export.sh`
+>+ To Import on a different machine: `./import.sh`
+>
+>## Note
+>+ The import script will drop all existent entries before inserting saved entries.
+>+ This can be used to wipe search engines which are automatically added by many web sites.
 
-To Import on a different machine:
-```
-./import.sh
-```
-
-Note:
-- The import script will drop all existent entries before inserting saved entries.
-- This can be used to wipe search engines which are automatically added by many web sites.
+</details>
